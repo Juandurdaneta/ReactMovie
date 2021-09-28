@@ -12,7 +12,6 @@ function Home() {
   
   const {state, loading, error} = useHomeFetch();
 
-  console.log(state);
 
   return (
     <>
