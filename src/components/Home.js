@@ -2,7 +2,8 @@ import React from "react";
 // Component
 import HeroImage from "./HeroImage";
 import Grid from "./Grid";
-import Thumb from "./Thumb"
+import Thumb from "./Thumb";
+import Spinner from "./Spinner";
 // Config
 import { POSTER_SIZE, BACKDROP_SIZE, IMAGE_BASE_URL } from "../config";
 // Hook
@@ -25,16 +26,20 @@ function Home() {
 
       <Grid header="Popular Movies">
         {state.results.map((movie) => (
-          <Thumb 
+          <Thumb
             key={movie.id}
             clickable
             image={
-              movie.poster_path ? IMAGE_BASE_URL + POSTER_SIZE + movie.poster_path : NoImage
+              movie.poster_path
+                ? IMAGE_BASE_URL + POSTER_SIZE + movie.poster_path
+                : NoImage
             }
             movieId={movie.id}
           />
         ))}
       </Grid>
+
+      <Spinner />
     </>
   );
 }
