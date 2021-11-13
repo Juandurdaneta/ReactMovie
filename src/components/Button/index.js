@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 // Styles
 import { Wrapper } from "./Button.styles";
 

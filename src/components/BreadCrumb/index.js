@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 import { Link } from "react-router-dom"; // allows to link back to home page
 // styles
 import { Wrapper, Content } from "./BreadCrumb.styles";

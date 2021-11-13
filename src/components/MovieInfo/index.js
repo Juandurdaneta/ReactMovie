@@ -2,7 +2,7 @@ import React from "react";
 // components
 import Thumb from "../Thumb";
 // config
-import { IMAGE_BASE_URL, POSTER_SIZE, BACKDROP_SIZE } from "../../config";
+import { IMAGE_BASE_URL, POSTER_SIZE } from "../../config";
 // image
 import NoImage from "../../images/no_image.jpg";
 // styles
