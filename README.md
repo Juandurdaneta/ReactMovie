@@ -9,4 +9,4 @@ Movie database created with react using functional components made as a practice
 
 ## Screenshots
 
-![Main site](screenshots/Captura de Pantalla 2021-12-06 a la(s) 10.44.38 p. m..png "Title")
+![Main site](/screenshots/screenshot1.png "Title")
