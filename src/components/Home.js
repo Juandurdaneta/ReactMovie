@@ -17,6 +17,7 @@ function Home() {
   const { state, loading, error, setSearchTerm, searchTerm, setIsLoadingMore } =
     useHomeFetch();
 
+
   if (error) {
     return <div>Something Went wrong...</div>;
   }

@@ -19,13 +19,14 @@ export const useHomeFetch = () => {
   const [error, setError] = useState(false);
   const [isLoadingMore, setIsLoadingMore] = useState(false);
 
+
+
   const fetchMovies = async (page, searchTerm = "") => {
     try {
       setError(false);
       setLoading(true);
 
       const movies = await API.fetchMovies(searchTerm, page);
-
       setState((prev) => ({
         ...movies,
         results:
@@ -35,7 +36,6 @@ export const useHomeFetch = () => {
       setError(true);
     }
 
-    setLoading(false);
   };
 
   // initial and search
