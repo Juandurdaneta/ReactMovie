@@ -22,7 +22,7 @@ export const Wrapper = styled.div`
 
     .error{
         color: red;
-        margin-bottom:10px;
+        margin-bottom: 10px;
     }
 
 `;
