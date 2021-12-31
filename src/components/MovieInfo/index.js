@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 
 // components
 import Thumb from "../Thumb";
+import Rate from '../Rate'
 // config
 import { IMAGE_BASE_URL, POSTER_SIZE } from "../../config";
 // image
@@ -40,6 +41,12 @@ const MovieInfo = ({ movie }) => (
             
           </div>
         </div>
+
+        <div>
+          <p>Rate Movie</p>
+          <Rate />
+        </div>
+
       </Text>
     </Content>
   </Wrapper>
